@@ -15,8 +15,8 @@ const iconMap = {
 };
 
 type CardWrapperProps = {
-  totalPaidInvoices: string;
-  totalPendingInvoices: string;
+  totalPaidInvoices: number;
+  totalPendingInvoices: number;
   numberOfInvoices: number;
   numberOfCustomers: number;
 };
